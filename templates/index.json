@@ -54,7 +54,10 @@
           "blocks": {}
         }
       },
-      "block_order": ["text_YLPk4p", "button_H9gpTf"],
+      "block_order": [
+        "text_YLPk4p",
+        "button_H9gpTf"
+      ],
       "disabled": true,
       "name": "t:names.hero",
       "settings": {
@@ -310,7 +313,10 @@
               ]
             }
           },
-          "block_order": ["product_card_gallery_JgqDGj", "group_7VTJcC"]
+          "block_order": [
+            "product_card_gallery_JgqDGj",
+            "group_7VTJcC"
+          ]
         }
       },
       "disabled": true,
@@ -346,7 +352,7 @@
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
-            "custom_width_mobile": 100,
+            "custom_width_mobile": 80,
             "height": "fit",
             "border": "none",
             "border_width": 1,
@@ -402,9 +408,9 @@
               "name": "t:names.heading",
               "settings": {
                 "text": "<p><strong>Більше, ніж просто іграшки</strong></p>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "normal",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -427,9 +433,9 @@
               "type": "text",
               "settings": {
                 "text": "<p>Авторські фігурки, створені на 3D-принтері з увагою до деталей.<br/></p>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "narrow",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -463,10 +469,17 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_48AiPB", "text_8gzV4N", "button_74jtVf"]
+          "block_order": [
+            "text_48AiPB",
+            "text_8gzV4N",
+            "button_74jtVf"
+          ]
         }
       },
-      "block_order": ["image_dBpU8z", "group_kGE8Lg"],
+      "block_order": [
+        "image_dBpU8z",
+        "group_kGE8Lg"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -497,5 +510,9 @@
       }
     }
   },
-  "order": ["hero_jVaWmY", "product_list_qU3bEB", "section_w4rcJG"]
+  "order": [
+    "hero_jVaWmY",
+    "product_list_qU3bEB",
+    "section_w4rcJG"
+  ]
 }
