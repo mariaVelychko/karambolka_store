@@ -457,7 +457,7 @@
             "button_74jtVf": {
               "type": "button",
               "settings": {
-                "label": "Shop now",
+                "label": "Купити зараз",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button-buy",
