@@ -1,0 +1,31 @@
+.button-buy {
+  width: 12vw;
+  height: 7vh;
+  background-color: #ad9a87;
+  color: #3d3939;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-buy:hover {
+  background-color: #3d3939;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-2px); /* Невеликий підйом */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь */
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+}
+
+@media (max-width: 768px) {
+  .button-buy {
+    width: 90vw; /* майже повна ширина */
+    height: 50px;
+    font-size: 14px;
+  }
+}
