@@ -3,7 +3,16 @@
 {% liquid
   if block.settings.link != blank
     # Extract domain from URL
-    assign platform = block.settings.link | split: '//' | last | remove: 'www.' | split: '.' | first
+assign url = block.settings.link | downcase
+if url contains "t.me"
+  assign platform = "telegram"
+elsif url contains "facebook"
+  assign platform = "facebook"
+elsif url contains "instagram"
+  assign platform = "instagram"
+else
+  assign platform = url | split: '//' | last | remove: 'www.' | split: '.' | first
+endif
   endif
 %}
 
