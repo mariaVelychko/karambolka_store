@@ -228,6 +228,7 @@
                 "social_link_JnLXB6": {
                   "type": "_social-link",
                   "name": "Facebook",
+                  "disabled": true,
                   "settings": {
                     "link": "https://www.facebook.com/shopify"
                   },
@@ -244,6 +245,7 @@
                 "social_link_kd8UUt": {
                   "type": "_social-link",
                   "name": "TikTok",
+                  "disabled": true,
                   "settings": {
                     "link": "https://www.tiktok.com/@shopify"
                   },
