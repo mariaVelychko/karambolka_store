@@ -212,6 +212,7 @@
             },
             "policy_list": {
               "type": "_footer-policy-list",
+              "disabled": true,
               "static": true,
               "settings": {
                 "font_size": "0.75rem",
@@ -221,7 +222,6 @@
             },
             "social_icons": {
               "type": "_footer-social-icons",
-              "disabled": true,
               "static": true,
               "settings": {},
               "blocks": {
@@ -249,19 +249,11 @@
                   },
                   "blocks": {}
                 },
-                "social_link_Qw9AXL": {
-                  "type": "_social-link",
-                  "name": "X / Twitter",
-                  "settings": {
-                    "link": "https://x.com/shopify"
-                  },
-                  "blocks": {}
-                },
                 "social_link_aAH768": {
                   "type": "_social-link",
-                  "name": "YouTube",
+                  "name": "Telegram",
                   "settings": {
-                    "link": "https://www.youtube.com/shopify"
+                    "link": "https://t.me/VelichkoAlexsandr"
                   },
                   "blocks": {}
                 }
@@ -270,7 +262,6 @@
                 "social_link_JnLXB6",
                 "social_link_9i9EqD",
                 "social_link_kd8UUt",
-                "social_link_Qw9AXL",
                 "social_link_aAH768"
               ]
             }
