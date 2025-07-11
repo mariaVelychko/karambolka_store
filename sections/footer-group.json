@@ -26,9 +26,36 @@
           },
           "blocks": {}
         },
+        "text_NFLen4": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Зв’яжіться з нами:<br/>+380 99 311 10 41</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "group_tbFfTQ": {
           "type": "group",
           "name": "Email signup",
+          "disabled": true,
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -185,11 +212,25 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "payment_icons_PGBEFR": {
+              "type": "payment-icons",
+              "name": "t:names.payment_icons",
+              "settings": {
+                "horizontal_alignment": "flex-start",
+                "gap": 10,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "group_4aCyy7",
-            "email_signup_NcLwNb"
+            "email_signup_NcLwNb",
+            "payment_icons_PGBEFR"
           ]
         },
         "footer_utilities_KRaGcH": {
@@ -255,7 +296,7 @@
                   "type": "_social-link",
                   "name": "Telegram",
                   "settings": {
-                    "link": "https://t.me/VelichkoAlexsandr"
+                    "link": "https://t.me/masha_stt0"
                   },
                   "blocks": {}
                 }
@@ -273,6 +314,7 @@
       },
       "block_order": [
         "divider_hFm3am",
+        "text_NFLen4",
         "group_tbFfTQ",
         "footer_utilities_KRaGcH"
       ],
