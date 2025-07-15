@@ -1,3 +1,3 @@
 # karambolka_store
-a
+BBBB
 
