@@ -30,7 +30,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Зв’яжіться з нами:<br/>+380 99 311 10 41</p>",
+            "text": "<p>На зв'язку 24/7:<br/>+380 99 311 10 41</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -266,29 +266,11 @@
               "static": true,
               "settings": {},
               "blocks": {
-                "social_link_JnLXB6": {
-                  "type": "_social-link",
-                  "name": "Facebook",
-                  "disabled": true,
-                  "settings": {
-                    "link": "https://www.facebook.com/shopify"
-                  },
-                  "blocks": {}
-                },
                 "social_link_9i9EqD": {
                   "type": "_social-link",
                   "name": "Instagram ",
                   "settings": {
                     "link": "https://www.instagram.com/karambolka_3d/"
-                  },
-                  "blocks": {}
-                },
-                "social_link_kd8UUt": {
-                  "type": "_social-link",
-                  "name": "TikTok",
-                  "disabled": true,
-                  "settings": {
-                    "link": "https://www.tiktok.com/@shopify"
                   },
                   "blocks": {}
                 },
@@ -302,9 +284,7 @@
                 }
               },
               "block_order": [
-                "social_link_JnLXB6",
                 "social_link_9i9EqD",
-                "social_link_kd8UUt",
                 "social_link_aAH768"
               ]
             }
