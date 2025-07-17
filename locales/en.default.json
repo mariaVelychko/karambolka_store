@@ -113,21 +113,21 @@
   "blogs": {
     "article": {
       "comments_heading": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }} коментар",
+        "other": "{{ count }} коментарів"
       },
       "comment_author_separator": "•"
     },
     "comment_form": {
-      "email": "Email",
-      "error": "Comment failed to post, please address the following:",
-      "heading": "Leave a comment",
-      "message": "Message",
-      "moderated": "Please note, comments need to be approved before they are published.",
-      "name": "Name",
-      "post": "Post comment",
-      "success_moderated": "Comment posted, awaiting moderation",
-      "success": "Comment posted"
+      "email": "Електронна пошта",
+      "error": "Не вдалося опублікувати коментар, будь ласка, виправте наступне:",
+      "heading": "Залишити коментар",
+      "message": "Повідомлення",
+      "moderated": "Зверніть увагу: перед публікацією коментар має бути схвалений.",
+      "name": "Ім’я",
+      "post": "Надіслати коментар",
+      "success_moderated": "Коментар надіслано. Очікує модерації.",
+      "success": "Коментар успішно надіслано."
     }
   },
   "content": {
