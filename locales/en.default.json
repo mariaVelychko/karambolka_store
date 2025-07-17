@@ -93,22 +93,22 @@
   },
   "blocks": {
     "contact_form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "comment": "Comment",
-      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-      "error_heading": "Please adjust the following:"
+      "name": "Ім’я",
+      "email": "Електронна пошта",
+      "phone": "Телефон",
+      "comment": "Коментра",
+      "post_success": "Дякуємо, що зв'язалися з нами. Ми відповімо якнайшвидше.",
+      "error_heading": "Будь ласка, виправте наступне:"
     },
     "email_signup": {
-      "label": "Email",
-      "placeholder": "Email address",
-      "success": "Thanks for subscribing!"
+      "label": "Електронна пошта",
+      "placeholder": "Введіть email",
+      "success": "Дякуємо за підписку!"
     },
-    "filter": "Filter",
-    "load_video": "Load video: {{ description }}",
-    "sold_out": "Sold out",
-    "payment_methods": "Payment methods"
+    "filter": "Фільтр",
+    "load_video": "Завантажити відео: {{ description }}",
+    "sold_out": "Розпродано",
+    "payment_methods": "Способи оплати"
   },
   "blogs": {
     "article": {
