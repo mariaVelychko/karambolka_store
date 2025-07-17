@@ -268,12 +268,12 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
-      "adding_to_cart": "Adding...",
-      "added_to_cart": "Added to cart",
-      "add_to_cart_error": "Error adding to cart",
-      "sold_out": "Sold out",
-      "unavailable": "Unavailable"
+      "add_to_cart": "Додати в кошик",
+      "adding_to_cart": "Додавання...",
+      "added_to_cart": "Додано в кошик",
+      "add_to_cart_error": "Помилка додавання до кошика",
+      "sold_out": "Немає в наявності",
+      "unavailable": "Недоступно"
     }
   },
   "shopify": {
