@@ -18,7 +18,7 @@
     "decrease_quantity": "Decrease quantity",
     "discount": "Apply a discount code",
     "discount_applied": "Applied discount code: {{ code }}",
-    "filters": "Filters",
+    "filters": "Фільтри",
     "filter_count": {
       "one": "{{ count }} filter applied",
       "other": "{{ count }} filters applied"
