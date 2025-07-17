@@ -56,7 +56,7 @@
     "add": "Add",
     "add_to_cart": "Add to cart",
     "added": "Added",
-    "apply": "Apply",
+    "apply": "Застосувати зміни",
     "back": "Back",
     "choose": "Choose",
     "clear": "Clear",
@@ -75,7 +75,7 @@
       "one": "See {{ count }} item",
       "other": "See {{ count }} items"
     },
-    "show_filters": "Filter",
+    "show_filters": "Фільтр",
     "show_less": "Show less",
     "show_more": "Show more",
     "sign_in_options": "Other sign in options",
@@ -89,7 +89,7 @@
     "sign_up": "Sign up",
     "submit": "Submit",
     "view_store_information": "View store information",
-    "sort": "Sort"
+    "sort": "Сортування"
   },
   "blocks": {
     "contact_form": {
