@@ -261,10 +261,10 @@
     }
   },
   "placeholders": {
-    "password": "Password",
-    "search": "Search",
-    "product_title": "Product title",
-    "collection_title": "Collection title"
+    "password": "Пароль",
+    "search": "Пошук",
+    "product_title": "Назва товару",
+    "collection_title": "Назва колекції"
   },
   "products": {
     "product": {
