@@ -302,6 +302,25 @@
         "true_label": "Так",
         "false_label": "Ні"
       }
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Вручну",
+        "best_selling": "Найпопулярніші",
+        "az": "За алфавітом: А–Я",
+        "za": "За алфавітом: Я–А",
+        "price_ascending": "Ціна: від нижчої до вищої",
+        "price_descending": "Ціна: від вищої до нижчої",
+        "date_ascending": "Дата: від старих до нових",
+        "date_descending": "Дата: від нових до старих"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Відповідність",
+        "price_ascending": "Ціна: від нижчої до вищої",
+        "price_descending": "Ціна: від вищої до нижчої"
+      }
     }
   },
   "customer_accounts": {
@@ -329,6 +348,29 @@
             "last_90_days": "Останні 365 днів",
             "last_365_days": "Останні 12 місяців",
             "custom": "Інше"
+          }
+        },
+        "sort_by": "Сортувати за: {{option}}",
+        "sort_hide_options_accessibility_label": "Сховати параметри сортування для підтверджених замовлень",
+        "sort_show_options_accessibility_label": "Показати параметри сортування для підтверджених замовлень",
+        "sort_currently_sorted_by_accessibility_label": "Поточне сортування: {{option}}",
+        "sort_title": "Сортування",
+        "sort": {
+          "date": {
+            "newest": "Від нових до старих",
+            "oldest": "Від старих до нових"
+          },
+          "location": {
+            "ascending": "Локація (А–Я)",
+            "descending": "Локація (Я–А)"
+          },
+          "order_number": {
+            "ascending": "Номер замовлення (від меншого до більшого)",
+            "descending": "Номер замовлення (від більшого до меншого)"
+          },
+          "order_total": {
+            "ascending": "Сума замовлення (від меншої до більшої)",
+            "descending": "Сума замовлення (від більшої до меншої)"
           }
         }
       }
