@@ -1,10 +1,8 @@
 {%- doc -%}
-  Echo a sizes attribute for an <img> tag based on a minimum image size.
-
-  @param {number} card_size - The minimum pixel-width of the product card.
-  @param {number} [card_gap] - The pixel-width of the gap between product cards.
-  @param {number} [max_breakpoint] - The maximum pixel-width to calculate breakpoints for.
-  @param {number} [min_breakpoint] - The minimum pixel-width before defaulting to 50vw.
+ @param {number} card_size – Мінімальна ширина картки товару в пікселях.
+@param {number} [card_gap] – Ширина проміжку між картками товарів у пікселях.
+@param {number} [max_breakpoint] – Максимальна ширина екрана в пікселях, для якої розраховуються брейкпоінти.
+@param {number} [min_breakpoint] – Мінімальна ширина екрана в пікселях, після якої використовується значення за замовчуванням 50vw.
 
   @example
   {% capture size_attribute %}
