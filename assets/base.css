@@ -12,9 +12,10 @@ body {
   min-height: 100svh;
   font-family: "Montserrat", sans-serif;
 }
-body.no-scroll {
-  overflow: hidden; !important
-  height: 100%; !important
+body.no-scroll,
+html.no-scroll {
+  overflow: hidden !important;
+  height: 100% !important;
 }
 
 :root {
