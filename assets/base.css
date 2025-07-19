@@ -2345,6 +2345,7 @@ deferred-media[class]
 
 @media screen and (max-width: 749px) {
   .mobile-column {
+    margin-block: 30px;
     flex-flow: column nowrap;
     align-items: var(--horizontal-alignment);
     justify-content: var(--vertical-alignment-mobile);
