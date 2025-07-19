@@ -2089,7 +2089,7 @@ deferred-media[class]
 .variant-picker .variant-option--buttons label:has(.swatch) {
   border-radius: var(--variant-picker-swatch-radius);
 }
-  .sticky-content {
+.sticky-content {
 
 }
 /*
