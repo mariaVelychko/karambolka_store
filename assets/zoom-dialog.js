@@ -50,7 +50,8 @@ export class ZoomDialog extends Component {
 
     const open = () => {
       dialog.showModal();
-
+      document.body.classList.add('no-scroll');
+      
       for (const target of [targetThumbnail, targetImage]) {
         target?.scrollIntoView({ behavior: 'instant' });
       }
@@ -130,7 +131,7 @@ export class ZoomDialog extends Component {
    */
   async close() {
     const { dialog, media } = this.refs;
-
+    document.body.classList.remove('no-scroll');
     if (!supportsViewTransitions) return this.closeDialog();
 
     // Find the most visible image using IntersectionObserver
