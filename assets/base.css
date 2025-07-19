@@ -2095,15 +2095,20 @@ deferred-media[class]
   top: var(--sticky-header-offset, 0);
   z-index: var(--layer-flat);
 }
+ @media screen and (min-width: 750px) {
+  .sticky-content--desktop,
+  .sticky-content--desktop.full-height--desktop > .group-block {
 
-@media screen and (min-width: 750px) {
+  }
+/*
+  @media screen and (min-width: 750px) {
   .sticky-content--desktop,
   .sticky-content--desktop.full-height--desktop > .group-block {
     position: sticky;
     top: var(--sticky-header-offset, 0);
     z-index: var(--layer-flat);
   }
-}
+}*/
 
 .price,
 .compare-at-price,
