@@ -1769,6 +1769,7 @@ zoom-dialog dialog {
 .product-media {
   display: flex;
   flex: 1;
+  align-items: center
 }
 
 /* If the product media is already providing an image cover, hide images provided by sibling deferred-media */
