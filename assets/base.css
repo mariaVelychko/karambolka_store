@@ -1552,7 +1552,7 @@ media-gallery {
 
   &:where(.constrain-height) {
     /* arbitrary offset value based on average theme spacing and header height */
-    --viewport-offset: 400px;
+    --viewport-offset: 0;
     --constrained-min-height: 300px;
     --constrained-height: max(
       var(--constrained-min-height),
