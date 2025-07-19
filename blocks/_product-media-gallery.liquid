@@ -444,8 +444,10 @@
       scrollbar-width: none;
       justify-content: center;
       /*overflow: scroll;*/
-      overflow: hidden;
-        overscroll-behavior: none !important; /* блокує скрол навіть при свайпах */
+ overflow: hidden !important;
+  height: 100% !important;
+  touch-action: none !important; /* блокує скрол на мобілках */
+  overscroll-behavior: none !important; /* блокує скрол навіть при свайпах */
 
 
       &::-webkit-scrollbar {
