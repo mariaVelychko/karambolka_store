@@ -12,13 +12,6 @@ body {
   min-height: 100svh;
   font-family: "Montserrat", sans-serif;
 }
-html.no-scroll,
-body.no-scroll {
-  overflow: hidden !important;
-  height: 100% !important;
-  touch-action: none !important; /* блокує скрол на мобілках */
-  overscroll-behavior: none !important; /* блокує скрол навіть при свайпах */
-}
 
 :root {
   --hover-lift-amount: 4px;
