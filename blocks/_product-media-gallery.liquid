@@ -1,5 +1,5 @@
 {% # import schema from '../schemas/blocks/_product-media-gallery.js' %}
-{% # конкретний товар %}
+{% # конкретна сторінка %}
 
 {%- if block.settings.zoom -%}
   <script
@@ -437,18 +437,13 @@
     }
 
     .product-media__drag-zoom-wrapper {
-     display: flex;
-  width: 100%;
-  height: 100%;
-  aspect-ratio: auto;
-
-  justify-content: center;
-  overflow: hidden !important; /* головне: ховає скрол */
-  touch-action: none !important; /* блокує свайпи на мобілках */
-  overscroll-behavior: none !important; /* блокує bounce-ефект */
-
-  scrollbar-width: none; /* Firefox */
-
+      display: flex;
+      aspect-ratio: auto;
+      height: 100%;
+      width: 100%;
+      overflow: scroll;
+      scrollbar-width: none;
+      justify-content: center;
 
       &::-webkit-scrollbar {
         display: none;
