@@ -2345,13 +2345,14 @@ deferred-media[class]
 
 @media screen and (max-width: 749px) {
   .mobile-column {
-    margin: 30px 0 30px 0;
     flex-flow: column nowrap;
     align-items: var(--horizontal-alignment);
     justify-content: var(--vertical-alignment-mobile);
   }
 
   .layout-panel-flex--row:not(.mobile-column) {
+        margin: 30px 0 30px 0;
+
     .text-block {
       flex: 1 1 var(--max-width--display-tight);
     }
