@@ -436,7 +436,7 @@ p:empty {
     .section:is([class*="color-scheme-"])
   ) {
   position: relative;
-
+  padding: 5%;
   .section-background {
     content: "";
     position: absolute;
