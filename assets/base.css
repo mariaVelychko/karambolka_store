@@ -503,6 +503,9 @@ p:empty {
 @media screen and (max-width: 749px) {
   .section-content-wrapper.section-content-wrapper {
 margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 }
 /* Utility */
