@@ -437,17 +437,17 @@
     }
 
     .product-media__drag-zoom-wrapper {
-      display: flex;
-      aspect-ratio: auto;
-      height: 100%;
-      width: 100%;
-      scrollbar-width: none;
-      justify-content: center;
-      /*overflow: scroll;*/
- overflow: hidden !important;
-  height: 100% !important;
-  touch-action: none !important; /* блокує скрол на мобілках */
-  overscroll-behavior: none !important; /* блокує скрол навіть при свайпах */
+     display: flex;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+
+  justify-content: center;
+  overflow: hidden !important; /* головне: ховає скрол */
+  touch-action: none !important; /* блокує свайпи на мобілках */
+  overscroll-behavior: none !important; /* блокує bounce-ефект */
+
+  scrollbar-width: none; /* Firefox */
 
 
       &::-webkit-scrollbar {
