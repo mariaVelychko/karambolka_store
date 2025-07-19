@@ -1778,7 +1778,7 @@ zoom-dialog dialog {
 
 /* If the product media is playing, hide the preview image */
 .product-media-container:has(.deferred-media__playing) .product-media__image {
-  opacity: 0;
+  opacity: 1;
   transition: opacity var(--animation-speed) var(--animation-easing);
 }
 
