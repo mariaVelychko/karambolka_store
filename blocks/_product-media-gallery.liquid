@@ -526,11 +526,13 @@
 
 .product-media__drag-zoom-wrapper {
   max-height: 70vh;
-  overflow-y: auto;
+  overflow: hidden;
   margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overscroll-behavior: none;
+  scrollbar-width: none;
 }
 
 .product-media__drag-zoom-wrapper img {
