@@ -2089,12 +2089,16 @@ deferred-media[class]
 .variant-picker .variant-option--buttons label:has(.swatch) {
   border-radius: var(--variant-picker-swatch-radius);
 }
+  .sticky-content {
 
+}
+/*
 .sticky-content {
   position: sticky;
   top: var(--sticky-header-offset, 0);
   z-index: var(--layer-flat);
 }
+*/
  @media screen and (min-width: 750px) {
   .sticky-content--desktop,
   .sticky-content--desktop.full-height--desktop > .group-block {
