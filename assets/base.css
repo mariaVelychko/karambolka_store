@@ -1547,7 +1547,7 @@ media-gallery {
 
 :not(.dialog-zoomed-gallery) > .product-media-container {
   display: flex;
-   aspect-ratio: var(--gallery-aspect-ratio, var(--media-preview-ratio)); 
+  /* aspect-ratio: var(--gallery-aspect-ratio, var(--media-preview-ratio)); */
   max-height: var(--constrained-height);
   width: 100%;
 
