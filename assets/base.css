@@ -639,7 +639,7 @@ p:empty {
   clip-path: rect(0 0 0 0);
   word-wrap: normal !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 749px) {
   .resource-card__media,
   .resource-card__image {
     display: block !important;
