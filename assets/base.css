@@ -548,7 +548,11 @@ p:empty {
   /* stylelint-disable-next-line declaration-no-important */
   word-wrap: normal !important;
 }
-
+@media screen and (max-width: 749px) {
+.visually-hidden:not(:focus, :active) {
+  position: static !important;
+}
+}
 @media screen and (max-width: 749px) {
   .is-visually-hidden-mobile:not(:focus, :active) {
     /* stylelint-disable-next-line declaration-no-important */
