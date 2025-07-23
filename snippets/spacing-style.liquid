@@ -1,13 +1,14 @@
 {%- comment -%}
-  Intended for blocks and sections that provide values for all the referenced settings.
+Призначено для блоків і секцій, які надають значення для всіх згаданих налаштувань.
 
-  <div class="spacing-style" style="{%  render 'spacing-style', settings: section.settings %}">
+<div class="spacing-style" style="{% render 'spacing-style', settings: section.settings %}">
 
-   Accepts:
-      settings: {block.settings || section.settings}
-      suffix: {string}
-      scale_min {number}: Value above which spacing scaling will be applied. Default: 20
-      disable_scaling {boolean}: Disable scaling. Default: false
+Приймає:
+   settings: {block.settings || section.settings}  
+   suffix: {string} – суфікс  
+   scale_min: {number} – значення, вище якого застосовується масштабування відступів. Типово: 20  
+   disable_scaling: {boolean} – вимкнення масштабування. Типово: false
+
 {%- endcomment -%}
 {%- liquid
   assign properties = 'padding,margin' | split: ','
