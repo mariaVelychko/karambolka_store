@@ -639,12 +639,19 @@ p:empty {
   clip-path: rect(0 0 0 0);
   word-wrap: normal !important;
 }
-.resource-card__image {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  object-fit: cover !important;
-  max-width: 100% !important;
+@media (max-width: 768px) {
+  .resource-card__media,
+  .resource-card__image {
+    display: block !important;
+    position: relative !important;
+    z-index: 999 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    background: green !important; /* тест, видалити */
+  }
 }
 
 
