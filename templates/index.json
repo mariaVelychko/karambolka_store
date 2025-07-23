@@ -795,6 +795,7 @@
         "slide_8b7LCB",
         "slide_CReiqn"
       ],
+      "disabled": true,
       "name": "t:names.slideshow",
       "settings": {
         "icons_style": "arrows_large",
