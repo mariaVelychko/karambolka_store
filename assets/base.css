@@ -727,6 +727,11 @@ p:empty {
   height: var(--icon-size-sm);
   pointer-events: none;
 }
+@media screen and (max-width: 749px) {
+.svg-wrapper {
+  display: none
+}
+}
 
 .svg-wrapper--smaller {
   width: var(--icon-size-2xs);
@@ -4158,14 +4163,6 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
     outline: none;
   }
 }
-@media screen and (max-width: 749px) {
-  #cmdk-input {
-    margin-left: 40px !important;
-  }
-}
-
-
-
 
   }
 .search-input:focus {
