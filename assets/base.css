@@ -4159,7 +4159,7 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
   }
 }
 @media screen and (max-width: 749px) {
-    .search-input {
+    #cmdk-input {
   margin: 0 0 0 40px;
 }
   }
