@@ -4159,12 +4159,11 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
   }
 }
 @media (max-width: 749px) {
-  .search-input {
-    margin-left: 40px !important;
-    width: calc(100% - 40px) !important;
-    background: yellow !important; /* Тест: чи застосовується стиль */
+  #cmdk-input {
+    transform: translateX(40px) !important;
   }
 }
+
 
 
   }
