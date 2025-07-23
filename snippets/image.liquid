@@ -1,12 +1,13 @@
 {%- doc -%}
-  Renders the <img> element using provided image object
+Виводить елемент <img> з використанням наданого об’єкта зображення.
 
-  @param {object} image - image object
-  @param {number} [height] - custom image height
-  @param {string} [class] - additional classes
-  @param {string} [text_fallback] - text to display if image is blank
-  @param {boolean} [unset_image_tag] - if true, ignores the image focal point
-  @param {string} [style] - additional styles
+@param {object} image – об’єкт зображення  
+@param {number} [height] – власна висота зображення  
+@param {string} [class] – додаткові класи  
+@param {string} [text_fallback] – текст для відображення, якщо зображення відсутнє  
+@param {boolean} [unset_image_tag] – якщо true, ігнорує точку фокусу зображення  
+@param {string} [style] – додаткові стилі
+
 
   @example
   {% render 'image', image: product.featured_image, height: 300, class: 'product-image' %}
