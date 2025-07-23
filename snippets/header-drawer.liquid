@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders a header drawer menu triggered by the top details element.
+Виводить меню drawer у шапці, яке активується верхнім елементом details.
 
-  @param {object} linklist - The linklist to render
-  @param {string} [class] - Additional classes to add to the drawer
-  @param {string} [data_header_drawer_type] - The type of header drawer to render
-  @param {object} [block] - The block that can be used to provide settings
-  @param {object} [section] - The section that can be used to provide settings
+@param {object} linklist – список посилань для відображення  
+@param {string} [class] – додаткові класи для drawer  
+@param {string} [data_header_drawer_type] – тип drawer у шапці для відображення  
+@param {object} [block] – блок, який може надавати налаштування  
+@param {object} [section] – секція, яка може надавати налаштування
+
 
   @example
   {% render 'header-drawer', linklist: section.settings.menu, class: 'header-drawer--mobile' %}
