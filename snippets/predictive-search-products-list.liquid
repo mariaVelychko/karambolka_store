@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders the predictive search products list for empty state and recently viewed products
+Виводить список продуктів прогнозованого пошуку для порожнього стану та недавно переглянутих продуктів.
 
-  @param {string} title - title of the result list
-  @param {object[]} products - array of products
-  @param {string[]} [order_ids] - array of product ids
-  @param {number} [limit] - limit of products to display
-  @param {string} [products_test_id] - a playwright test id, used to differentiate empty state from 'real' search results
+@param {string} title – заголовок списку результатів  
+@param {object[]} products – масив продуктів  
+@param {string[]} [order_ids] – масив ідентифікаторів продуктів  
+@param {number} [limit] – обмеження кількості продуктів для відображення  
+@param {string} [products_test_id] – тестовий ID Playwright для розрізнення порожнього стану та «реальних» результатів пошуку
+
 {%- enddoc -%}
 {%- liquid
   assign recently_viewed_title_text = 'content.recently_viewed_products' | t
