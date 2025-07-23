@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders either a country selector, language selector, or both.
+Виводить селектор країни, селектор мови або обидва одночасно.
 
-  @param {boolean} show_country - Whether to show the country selector
-  @param {boolean} show_language - Whether to show the language selector
-  @param {string} block_id - The block ID
-  @param {string} [form_style] - The style tag string to be applied to the form
-  @param {string} [localization_style] - The style of the localization form
+@param {boolean} show_country – чи показувати селектор країни  
+@param {boolean} show_language – чи показувати селектор мови  
+@param {string} block_id – ID блоку  
+@param {string} [form_style] – рядок стилю, який буде застосовано до форми  
+@param {string} [localization_style] – стиль форми локалізації
+
 
   @example
   {% render 'localization-form', show_country: true, show_language: true, block_id: block.id %}
