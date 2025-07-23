@@ -550,7 +550,7 @@ p:empty {
 }
 @media screen and (max-width: 749px) {
 .visually-hidden:not(:focus, :active) {
-  display: none;
+
   position: static !important;
 }
 }
