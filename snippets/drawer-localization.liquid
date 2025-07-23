@@ -1,11 +1,12 @@
 drawer-localization
 {%- doc -%}
-  Renders a localization component for the drawer.
-  The <drawer-localization> component must be used inside a <header-drawer> component. It relies on event bindings from the parent <header-drawer>  component.
+Виводить компонент локалізації для drawer.  
+Компонент `<drawer-localization>` має використовуватися всередині компонента `<header-drawer>`. Він залежить від прив’язки подій від батьківського компонента `<header-drawer>`.
 
-  @param {boolean} [show_country] - Whether to show the country selector
-  @param {boolean} [show_language] - Whether to show the language selector
-  @param {boolean} [country_style] - Whether to show the country flag
+@param {boolean} [show_country] – чи показувати селектор країни  
+@param {boolean} [show_language] – чи показувати селектор мови  
+@param {boolean} [country_style] – чи показувати прапорець країни
+
 
   @example
   {% render 'drawer-localization', country_style: true %}
