@@ -1,9 +1,10 @@
 {%- doc -%}
-  Renders a skip to content link, visible on focus only.
-  Parent element must have position: relative to ensure proper positioning.
+Виводить посилання «перейти до контенту», видиме лише при фокусі.  
+Батьківський елемент повинен мати `position: relative` для коректного позиціонування.
 
-  @param {string} href - The URL to skip to, usually an id like "#MainContent".
-  @param {string} text - The text to display, in the form of a translation key for a locale file.
+@param {string} href – URL для переходу, зазвичай це ідентифікатор, наприклад, "#MainContent".  
+@param {string} text – Текст для відображення у вигляді ключа перекладу з локалізованого файлу.
+
 
   @example
   {% render 'skip-to-content-link', href: '#MainContent', text: 'Skip to main content' %}
