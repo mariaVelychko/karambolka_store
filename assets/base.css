@@ -639,15 +639,7 @@ p:empty {
   clip-path: rect(0 0 0 0);
   word-wrap: normal !important;
 }
-@media (max-width: 768px) {
-  .resource-card__media,
-  .resource-card__image {
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    height: auto !important;
-  }
-  .resource-card__image {
+.resource-card__image {
   display: block !important;
   width: 100% !important;
   height: auto !important;
@@ -655,7 +647,6 @@ p:empty {
   max-width: 100% !important;
 }
 
-}
 
 .skip-to-content-link:focus {
   z-index: var(--layer-temporary);
