@@ -4158,7 +4158,11 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
     outline: none;
   }
 }
-
+@media screen and (max-width: 749px) {
+    .search-input {
+  outline: none;
+}
+  }
 .search-input:focus {
   outline: none;
 }
