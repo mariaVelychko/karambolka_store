@@ -4158,13 +4158,14 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
     outline: none;
   }
 }
-@media screen and (max-width: 749px) {
+@media (max-width: 749px) {
   #cmdk-input {
     margin-left: 40px !important;
-    width: auto !important;
-    max-width: calc(100% - 40px);
+    width: calc(100% - 40px) !important;
+    background: yellow !important; /* Тест: чи застосовується стиль */
   }
 }
+
 
   }
 .search-input:focus {
