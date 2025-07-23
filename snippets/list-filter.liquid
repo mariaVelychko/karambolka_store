@@ -1,14 +1,15 @@
 {%- doc -%}
-  Renders a list or swatch filter.
+Виводить список або зразковий (swatch) фільтр.
 
-  @param {object} filter - The filter to render
-  @param {string} filter_style - The filter style ('horizontal' | 'vertical')
-  @param {number} active_value_count - The number of active values
-  @param {number} sectionId - The section ID
-  @param {boolean} [autofocus] - Whether to autofocus the filter
-  @param {boolean} [should_render_clear] - Whether to render the clear button
-  @param {boolean} [show_swatch_label] - Whether to show the swatch label
-  @param {boolean} [in_drawer] - Whether the filter is in a drawer
+@param {object} filter – фільтр для відображення  
+@param {string} filter_style – стиль фільтра ('horizontal' | 'vertical')  
+@param {number} active_value_count – кількість активних значень  
+@param {number} sectionId – ID секції  
+@param {boolean} [autofocus] – чи встановлювати автоматичний фокус на фільтр  
+@param {boolean} [should_render_clear] – чи відображати кнопку скидання  
+@param {boolean} [show_swatch_label] – чи показувати підпис до зразка  
+@param {boolean} [in_drawer] – чи знаходиться фільтр у висувній панелі (drawer)
+
 {%- enddoc -%}
 
 {% liquid
