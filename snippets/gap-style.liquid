@@ -1,11 +1,11 @@
 {%- doc -%}
-  Renders the CSS variables for the `gap` styles needed for responsive scaling.
-  Intended for use with the `gap-style` class.
+Виводить CSS-змінні для стилів `gap`, необхідних для адаптивного масштабування.  
+Призначено для використання з класом `gap-style`.
 
-  @param {number} value - The base or desktop gap value to use, in pixels.
-  @param {string} [name] - The name of the CSS variable to set. Default: 'gap'
-  @param {number} [scale_min] - Value above which gap scaling will be applied. Default: 20
-  @param {boolean} [disable_scaling] - If true, disables scaling and outputs the original value.
+@param {number} value – базове або десктопне значення відступу (gap) в пікселях  
+@param {string} [name] – ім’я CSS-змінної для встановлення. За замовчуванням: 'gap'  
+@param {number} [scale_min] – значення, вище за яке застосовується масштабування gap. За замовчуванням: 20  
+@param {boolean} [disable_scaling] – якщо true, масштабування вимикається і виводиться початкове значення
 
   @example
   <div class="gap-style" style="{% render 'gap-style', value: block.settings.gap %}">
