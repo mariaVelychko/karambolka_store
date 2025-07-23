@@ -1,9 +1,10 @@
 Контакт форм
 {%- doc -%}
-  Renders a contact form with name, email, phone, and comment fields.
+Виводить контактну форму з полями для імені, електронної пошти, телефону та коментаря.
 
-  @param {object} settings - Block settings, required for the 'spacing-style' and 'size-style' snippets.
-  @param {string} submit_button - HTML for the submit button, rendered via a `content_for` block.
+@param {object} settings – налаштування блоку, необхідні для снипетів 'spacing-style' і 'size-style'  
+@param {string} submit_button – HTML-код кнопки відправки, виводиться через блок `content_for`
+
 
   @example
   {% render 'contact-form', settings: block.settings, submit_button: content_for_submit_button %}
