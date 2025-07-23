@@ -1,8 +1,8 @@
 {%- doc -%}
-  Renders the unit price, including its measurement.
+Виводить ціну за одиницю товару, включаючи її одиницю виміру.
 
-  @param {object} price - The unit price (money or string).
-  @param {object} measurement - The unit_price_measurement object.
+@param {object} price – Ціна за одиницю (у вигляді грошей або рядка).
+@param {object} measurement – Об’єкт unit_price_measurement (одиниця виміру).
 
   @example
   {% render 'unit-price', price: variant.unit_price, measurement: variant.unit_price_measurement %}
