@@ -1402,7 +1402,12 @@ button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
   font-style: var(--font-paragraph--style);
   font-size: var(--font-paragraph--size);
 }
-
+  @media screen and (min-width: 750px) {
+  .button-unstyled > .header-actions__cart-icon .cart-bubble__text {
+  display: none;
+}
+  }
+}
 .button-unstyled:hover {
   background-color: inherit;
 }
