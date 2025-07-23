@@ -4158,11 +4158,12 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
     outline: none;
   }
 }
-@media (max-width: 749px) {
+@media screen and (max-width: 749px) {
   #cmdk-input {
-    transform: translateX(40px) !important;
+    margin-left: 40px !important;
   }
 }
+
 
 
 
