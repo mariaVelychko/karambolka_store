@@ -731,6 +731,9 @@ p:empty {
   #cmdk-input {
     margin-left: 40px !important;
   }
+  .predictive-search-form__header .search-input{
+    padding-inline: 50px;
+  }
 }
 
 .svg-wrapper--smaller {
