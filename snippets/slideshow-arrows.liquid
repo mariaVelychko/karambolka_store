@@ -1,12 +1,13 @@
 {%- doc -%}
-  Renders arrow controls for a slideshow component.
-  Assumes arrows are placed on top of media.
-  When icon shape is 'none', component uses mixed-blend-mode to ensure visibility.
+Виводить стрілки керування для компонента слайдшоу.  
+Припускається, що стрілки розташовані поверх медіа.  
+Якщо форма іконки — 'none', компонент використовує mixed-blend-mode для забезпечення видимості.
 
-  @param {string} [class] - The class name to apply to the slideshow-arrows component
-  @param {string} [icon_style] - The style of the icon, defaults to 'arrow'
-  @param {string} [icon_shape] - The shape of the icons background, defaults to 'none'
-  @param {string} [arrows_position] - { 'left' | 'center' | 'right' } The position of the arrows, defaults to 'center'
+@param {string} [class] – ім’я класу для компонента slideshow-arrows  
+@param {string} [icon_style] – стиль іконки, за замовчуванням 'arrow'  
+@param {string} [icon_shape] – форма фону іконок, за замовчуванням 'none'  
+@param {string} [arrows_position] – { 'left' | 'center' | 'right' } позиція стрілок, за замовчуванням 'center'
+
 
   @example
   {%- render 'slideshow-arrows' -%}
