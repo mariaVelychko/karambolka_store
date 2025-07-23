@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) {
   .button-buy {
-    width: 100vw; /* майже повна ширина */
+    width: 90vw; /* майже повна ширина */
     height: 50px;
     font-size: 14px;
   }
