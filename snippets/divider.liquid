@@ -1,18 +1,17 @@
-Роздількик футтера
 {%- doc -%}
-  Renders a divider line, used to visually separate content.
+Виводить розділювальну лінію, використовується для візуального поділу контенту.
 
-  @param {string} id - A unique ID for the divider, linking it to a block or section.
-  @param {object} settings - An object containing style settings for the divider.
+@param {string} id – унікальний ID розділювача, що зв’язує його з блоком або секцією  
+@param {object} settings – об’єкт з налаштуваннями стилю розділювача  
 
-  @param {string} [settings.alignment_horizontal] - The horizontal alignment of the divider ('left', 'center', or
-  'right'). Defaults to 'center'.
-  @param {number} [settings.thickness] - The thickness of the divider line in pixels.
-  @param {string} [settings.corner_radius] - The corner radius of the divider, e.g., 'rounded'.
-  @param {number} [settings.width_percent] - The width of the divider as a percentage of its container.
+@param {string} [settings.alignment_horizontal] – горизонтальне вирівнювання розділювача ('left', 'center', або 'right'). За замовчуванням — 'center'  
+@param {number} [settings.thickness] – товщина лінії розділювача в пікселях  
+@param {string} [settings.corner_radius] – радіус заокруглення кутів розділювача, наприклад, 'rounded'  
+@param {number} [settings.width_percent] – ширина розділювача у відсотках від контейнера  
 
-  @param {boolean} [full_width] - When `true`, the divider spans the full width of its container.
-  @param {boolean} [attributes] - When `true`, render block.shopify_attributes on the divider container.
+@param {boolean} [full_width] – якщо `true`, розділювач розтягується на повну ширину контейнера  
+@param {boolean} [attributes] – якщо `true`, виводить block.shopify_attributes на контейнері розділювача
+
 {%- enddoc -%}
 
 <div
