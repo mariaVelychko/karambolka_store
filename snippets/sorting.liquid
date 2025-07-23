@@ -1,13 +1,14 @@
 {%- doc -%}
-  Renders the sorting component.
+Виводить компонент сортування.
 
-  @param {object} results - The results of the search
-  @param {string} sort_by - The current sort by
-  @param {string} filter_style - The filter style
-  @param {string} [suffix] - { 'desktop' | 'mobile' | 'overflow' } Used on `form` attributes to connect inputs to a form[id]
-  @param {string} [sort_position] - { 'desktop' | 'mobile' } Used in a data-testID selector for automated testing
-  @param {boolean} should_use_select_on_mobile - Whether to use a select element for the sorting component on mobile
-  @param {string} section_id - The section ID
+@param {object} results – результати пошуку  
+@param {string} sort_by – поточний параметр сортування  
+@param {string} filter_style – стиль фільтра  
+@param {string} [suffix] – { 'desktop' | 'mobile' | 'overflow' } використовується в атрибутах `form`, щоб пов’язати елементи вводу з form[id]  
+@param {string} [sort_position] – { 'desktop' | 'mobile' } використовується в селекторі data-testID для автоматизованого тестування  
+@param {boolean} should_use_select_on_mobile – чи використовувати елемент select для сортування на мобільних  
+@param {string} section_id – ID секції
+
 {%- enddoc -%}
 
 <sorting-filter-component
