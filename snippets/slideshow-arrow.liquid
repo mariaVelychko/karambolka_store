@@ -1,10 +1,11 @@
 {%- doc -%}
-  Renders a slideshow arrow control
+Виводить елемент керування стрілкою слайдшоу.
 
-  @param {string} action - { 'previous' | 'next' } The action to perform when the arrow is clicked.
-  @param {string} [icon_style] - { 'arrow' | 'chevron' } The style of the icon, defaults to 'arrow'.
-  @param {string} [icon_size] - { 'small' | 'medium' | 'large' } The size of the icon, defaults to 'medium'.
-  @param {string} [icon_shape] - { 'circle' | 'square' } The shape of the control, defaults to 'none'.
+@param {string} action – { 'previous' | 'next' } Дія, що виконується при натисканні на стрілку  
+@param {string} [icon_style] – { 'arrow' | 'chevron' } Стиль іконки, за замовчуванням 'arrow'  
+@param {string} [icon_size] – { 'small' | 'medium' | 'large' } Розмір іконки, за замовчуванням 'medium'  
+@param {string} [icon_shape] – { 'circle' | 'square' } Форма контролю, за замовчуванням 'none'
+
 
   @example
   {%- render 'slideshow-arrow', action: 'previous' -%}
