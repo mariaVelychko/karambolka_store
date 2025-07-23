@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders block content for all blocks that extend the group block.
+Виводить вміст блоку для всіх блоків, які наслідують груповий блок.
 
-  @param {string} children - The DOM content of the group block.
-  @param {object} settings - The settings of the group block.
-  @param {string} shopify_attributes - String with Shopify attributes for the editor.
-  @param {string} [class] - Custom classes for the group block.
-  @param {string} [style] - Custom inline styles for the group block.
+@param {string} children – DOM-вміст групового блоку  
+@param {object} settings – налаштування групового блоку  
+@param {string} shopify_attributes – рядок атрибутів Shopify для редактора  
+@param {string} [class] – власні класи для групового блоку  
+@param {string} [style] – власні інлайн-стилі для групового блоку
+
 
   @example
   {% render 'group', children: children, settings: block.settings, shopify_attributes: block.shopify_attributes %}
