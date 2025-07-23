@@ -1,5 +1,5 @@
 .button-buy {
-  width: 17vw;
+  width: 18vw;
   height: 9vh;
   background-color: #ad9a87;
   color: #3d3939;
@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) {
   .button-buy {
-    width: 90vw; /* майже повна ширина */
+    width: 100vw; /* майже повна ширина */
     height: 50px;
     font-size: 14px;
   }
