@@ -647,6 +647,14 @@ p:empty {
     visibility: visible !important;
     height: auto !important;
   }
+  .resource-card__image {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+  max-width: 100% !important;
+}
+
 }
 
 .skip-to-content-link:focus {
