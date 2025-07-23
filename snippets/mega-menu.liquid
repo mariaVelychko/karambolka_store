@@ -1,13 +1,14 @@
 {%- doc -%}
-  Renders a mega menu list and optional "more" menu links.
-  When more menu links are present a duplicate instance of each submenu is also rendered.
+Виводить список мегаменю та опціональні посилання меню «більше».  
+Якщо присутні посилання «більше», також відображається дубльований екземпляр кожного підменю.
 
-  @param {object} [section] - The section object.
-  @param {linklist} [parent_link] - The linklist to render
-  @param {string} [id] - Unique ID to assign ul in markup
-  @param {string} [menu_content_type] - The type of content to render, options: ['featured_products', 'featured_collections', 'collection_images', 'text'] (default: 'text')
-  @param {number} [content_aspect_ratio] - The aspect ratio to display the content if applicable
-  @param {number} [image_border_radius] - The border radius used for the content images
+@param {object} [section] – об’єкт секції  
+@param {linklist} [parent_link] – список посилань для відображення  
+@param {string} [id] – унікальний ID, який призначається елементу ul у розмітці  
+@param {string} [menu_content_type] – тип контенту для відображення, варіанти: ['featured_products', 'featured_collections', 'collection_images', 'text'] (за замовчуванням: 'text')  
+@param {number} [content_aspect_ratio] – співвідношення сторін для відображення контенту, якщо застосовується  
+@param {number} [image_border_radius] – радіус закруглення країв для зображень контенту
+
 {%- enddoc -%}
 
 <div class="mega-menu section section--full-width-margin section--{{ section.settings.section_width }}">
