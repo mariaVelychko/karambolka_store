@@ -4164,14 +4164,6 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
     width: auto !important;
     max-width: calc(100% - 40px);
   }
-  .predictive-search-form__header-inner {
-  justify-content: start;
-  gap: 12px;
-}
-
-}
-
-
 }
 
   }
