@@ -1403,7 +1403,7 @@ button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
   font-size: var(--font-paragraph--size);
 }
   @media screen and (min-width: 750px) {
- .cart-bubble__text {
+ .visually-hidden {
   display: none;
 }
   }
