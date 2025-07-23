@@ -1,12 +1,13 @@
 {%- doc -%}
-  This snippet is used to render the quantity selector for a product.
-  It is used in the product page and the cart page.
+Цей снипет використовується для відображення селектора кількості товару.  
+Використовується на сторінці продукту та в кошику.
 
-  @param {object} product - the product to render the quantity selector for
-  @param {number} [in_cart_quantity] - the quantity in the cart to set the input value
-  @param {number} [line_index] - the index of the forloop representing the line on which the quantity selector is rendered
-  @param {number} [min] - the minimum quantity the input supports
-  @param {string} [class] - custom class for the quantity selector, optional
+@param {object} product – продукт, для якого відображається селектор кількості  
+@param {number} [in_cart_quantity] – кількість у кошику для встановлення значення в полі вводу  
+@param {number} [line_index] – індекс циклу forloop, що відповідає рядку, на якому відображається селектор кількості  
+@param {number} [min] – мінімальна підтримувана кількість  
+@param {string} [class] – додатковий клас для селектора кількості, необов’язковий
+
 {%- enddoc -%}
 
 {% liquid
