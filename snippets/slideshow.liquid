@@ -1,26 +1,27 @@
 {%- doc -%}
-  Renders a slideshow component.
-  Condiional <slideshow-arrows> component and slideshow controls.
+  Виводить компонент слайдшоу.  
+Умовний компонент <slideshow-arrows> та елементи керування слайдшоу.
 
-  @param {object[]} slides - the slides of the slideshow
-  @param {string} [ref] - the ref of the slideshow component
-  @param {string} [class] - HTML class attribute of the slideshow component
-  @param {string} [header] - the header of the slideshow component
-  @param {string} [controls] - the controls of the slideshow component
-  @param {string} [style] - HTML style attribute of the slideshow component
-  @param {boolean} [autoplay] - whether the slideshow will autoplay
-  @param {number} [autoplay_speed] - the speed of the slideshow autoplay
-  @param {boolean} [auto_hide_controls] - whether to hide slideshow-controls when the scroller is smaller than the viewport
-  @param {boolean} [infinite] - whether the slideshow will loop
-  @param {number} [initial_slide] - the index of the initial slide
-  @param {string} [slideshow_gutters] - the gutter positions to render. Set width with CSS variables --gutter-slide-width
-  @param {number} [slide_count] - the total number of slides
-  @param {string} [slide_size] - the height of the slides
-  @param {boolean} [show_arrows] - whether the slideshow will render a slideshow-arrows component
-  @param {string} [slideshow_arrows] - a custom slideshow-arrows component to render instead of the default
-  @param {string} [icon_style] - The style of the icon, defaults to 'arrow'
-  @param {string} [arrows_position] - The position of the arrows, defaults to 'bottom'
-  @param {string} [attributes] - Additional attributes to add to the slideshow component
+@param {object[]} slides – слайди слайдшоу  
+@param {string} [ref] – референс компонента слайдшоу  
+@param {string} [class] – HTML-клас компонента слайдшоу  
+@param {string} [header] – заголовок компонента слайдшоу  
+@param {string} [controls] – елементи керування слайдшоу  
+@param {string} [style] – HTML-стиль компонента слайдшоу  
+@param {boolean} [autoplay] – чи буде слайдшоу відтворюватись автоматично  
+@param {number} [autoplay_speed] – швидкість автопрогравання слайдшоу  
+@param {boolean} [auto_hide_controls] – чи приховувати елементи керування, коли слайдер менший за область перегляду  
+@param {boolean} [infinite] – чи буде слайдшоу циклічним  
+@param {number} [initial_slide] – індекс початкового слайду  
+@param {string} [slideshow_gutters] – позиції відступів (gutter) для відображення. Ширину встановлювати через CSS-змінні --gutter-slide-width  
+@param {number} [slide_count] – загальна кількість слайдів  
+@param {string} [slide_size] – висота слайдів  
+@param {boolean} [show_arrows] – чи відображати компонент стрілок слайдшоу  
+@param {string} [slideshow_arrows] – кастомний компонент стрілок для відображення замість стандартного  
+@param {string} [icon_style] – стиль іконки, за замовчуванням 'arrow'  
+@param {string} [arrows_position] – позиція стрілок, за замовчуванням 'bottom'  
+@param {string} [attributes] – додаткові атрибути для компонента слайдшоу  
+
 
   @example
   {% render 'slideshow', slides: slides, slide_count: collection.products.size, ref: 'mobileSlideshow' %}
