@@ -732,7 +732,7 @@ p:empty {
     margin-left: 40px !important;
   }
   .predictive-search-form__header .search-input{
-    padding-inline: 50px;
+    with: 40%;
   }
 }
 
