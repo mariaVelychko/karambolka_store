@@ -1,12 +1,14 @@
 {%- doc -%}
-  Renders an "Add to cart" button with dynamic text and state. It shows different text based on whether the product can be added to the cart and provides visual feedback when an item is added.
+Виводить кнопку «Додати до кошика» з динамічним текстом і станом.  
+Показує різний текст залежно від того, чи можна додати товар до кошика, і надає візуальний зворотній зв’язок при додаванні товару.
 
-  @param {boolean} can_add_to_cart - Whether the product can be added to the cart.
-  @param {string} add_to_cart_text - The text to display on the button.
-  @param {object} product - The product object to be added to the cart.
-  @param {boolean} [icon_only_on_mobile] - If `true`, only the icon is shown on mobile devices.
-  @param {string} [class] - Additional CSS classes to apply to the button.
-  @param {string} [id] - The ID attribute for the button.
+@param {boolean} can_add_to_cart – чи можна додати товар до кошика  
+@param {string} add_to_cart_text – текст, що відображається на кнопці  
+@param {object} product – об’єкт товару для додавання до кошика  
+@param {boolean} [icon_only_on_mobile] – якщо `true`, на мобільних показується лише іконка  
+@param {string} [class] – додаткові CSS-класи для кнопки  
+@param {string} [id] – атрибут ID для кнопки
+
 {%- enddoc -%}
 
 {%- liquid
