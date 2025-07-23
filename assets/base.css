@@ -4159,7 +4159,7 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
   }
 }
 @media screen and (max-width: 749px) {
-    #cmdk-input {
+.search-input, .search-input:is(:focus,:focus-visible,:focus-within), .predictive-search-form__header *:is(:focus,:focus-visible) {
   margin: 0 0 0 40px;
 }
   }
