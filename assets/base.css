@@ -728,9 +728,9 @@ p:empty {
   pointer-events: none;
 }
 @media screen and (max-width: 749px) {
-.svg-wrapper {
-  display: none
-}
+  #cmdk-input {
+    margin-left: 40px !important;
+  }
 }
 
 .svg-wrapper--smaller {
