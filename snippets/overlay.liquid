@@ -1,8 +1,9 @@
 {%- doc -%}
-  Renders a full-bleed overlay.
+Виводить накладання (оверлей) на всю ширину.
 
-  @param {object} settings - Block or section settings, expecting `overlay_color`, `overlay_style`, and `gradient_direction`.
-  @param {string} [layer] - The z-index layer for the overlay, defaults to `var(--layer-flat)`.
+@param {object} settings – налаштування блоку або секції, очікуються `overlay_color`, `overlay_style` та `gradient_direction`  
+@param {string} [layer] – шар z-index для оверлею, за замовчуванням `var(--layer-flat)`
+
 
   @example
   {% render 'overlay', settings: section.settings, layer: 'var(--layer-raised)' %}
