@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders either an SVG icon or an uploaded image based on block settings.
+Виводить іконку SVG або завантажене зображення на основі налаштувань блоку.
 
-  @param {string} icon - The icon name from block.settings.icon
-  @param {object} image_upload - The uploaded image from block.settings.image_upload
-  @param {number} width - The width setting from block.settings.width
-  @param {string} class_name - CSS class name for the rendered element
-  @param {object} [attributes] - Additional HTML attributes to add to the element
+@param {string} icon – назва іконки з block.settings.icon  
+@param {object} image_upload – завантажене зображення з block.settings.image_upload  
+@param {number} width – налаштування ширини з block.settings.width  
+@param {string} class_name – CSS-клас для виведеного елемента  
+@param {object} [attributes] – додаткові HTML-атрибути для елемента
+
 {%- enddoc -%}
 
 {%- if icon != 'none' and image_upload == blank -%}
