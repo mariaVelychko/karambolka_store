@@ -1,11 +1,12 @@
 {%- doc -%}
-  Renders the predictive search input and results.
+Виводить поле прогнозованого пошуку та результати.
 
-  @param {string} [class] - Additional classes to add to the component.
-  @param {string} [search_position] - Lateral position of the search component in the header ('left' or 'right').
-  @param {string} [search_test_id] - A Playwright test ID for differentiating search components.
-  @param {string} [input_id] - The ID for the search input element.
-  @param {string} [products_test_id] - A Playwright test ID for differentiating products.
+@param {string} [class] – додаткові класи для компонента  
+@param {string} [search_position] – бічне розташування компонента пошуку у хедері ('left' або 'right')  
+@param {string} [search_test_id] – тестовий ID Playwright для ідентифікації компонента пошуку  
+@param {string} [input_id] – ID для поля введення пошуку  
+@param {string} [products_test_id] – тестовий ID Playwright для ідентифікації продуктів
+
 
   @example
   {% render 'predictive-search', search_position: 'left', search_test_id: 'header-search' %}
