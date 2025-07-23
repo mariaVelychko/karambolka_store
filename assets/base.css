@@ -4160,8 +4160,13 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
 }
 @media screen and (max-width: 749px) {
   #cmdk-input {
-    transform: translateX(40px);
+    margin-left: 40px !important;
+    width: auto !important;
+    max-width: calc(100% - 40px);
   }
+}
+
+
 }
 
   }
