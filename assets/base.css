@@ -537,7 +537,7 @@ p:empty {
 
 .visually-hidden:not(:focus, :active) {
   /* stylelint-disable-next-line declaration-no-important */
-  position: absolute !important;
+ /* position: absolute !important;*/
   overflow: hidden;
   width: 1px;
   height: 1px;
