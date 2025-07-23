@@ -1,10 +1,11 @@
 {%- doc -%}
-  Renders a price filter.
+Виводить фільтр за ціною.
 
-  @param {object} filter - The filter object to render.
-  @param {string} filter_style - The filter style, can be 'horizontal' or 'vertical'.
-  @param {boolean} [autofocus] - Whether to autofocus the filter.
-  @param {boolean} [should_render_clear] - Whether to render the clear button.
+@param {object} filter – об’єкт фільтра для відображення  
+@param {string} filter_style – стиль фільтра, може бути 'horizontal' або 'vertical'  
+@param {boolean} [autofocus] – чи встановлювати автоматичний фокус на фільтр  
+@param {boolean} [should_render_clear] – чи відображати кнопку скидання
+
 
   @example
   {% render 'price-filter', filter: filter, filter_style: 'vertical' %}
