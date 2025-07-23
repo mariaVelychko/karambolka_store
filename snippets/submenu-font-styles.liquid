@@ -1,7 +1,9 @@
 {%- comment -%}
-  Derives CSS variables from the menu typography settings for 2nd and 3rd level menu items.
-  Accepts:
-     settings: {block.settings}
+Отримує CSS-змінні з налаштувань типографіки меню для пунктів меню 2-го та 3-го рівнів.
+
+Приймає:
+   settings: {block.settings}
+
 {%- endcomment -%}
 
 --menu-parent-font-family: var(--font-{{ settings.type_font_tertiary_link }}--family); --menu-parent-font-style:
