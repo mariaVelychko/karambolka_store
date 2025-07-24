@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.title",
           "settings": {
-            "text": "<h2>{{ closest.page.title }}</h2>",
+            "text": "<p>Зв’яжіться з нами</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -73,7 +73,7 @@
         "content_direction": "column",
         "gap": 32,
         "color_scheme": "scheme-b9335c21-47d0-4ecd-97da-16210012e3ab",
-        "padding-block-start": 40,
+        "padding-block-start": 0,
         "padding-block-end": 0
       }
     },
@@ -140,8 +140,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 84
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
