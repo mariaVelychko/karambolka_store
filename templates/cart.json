@@ -304,7 +304,7 @@
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
-        "columns_gap": 8,
+        "columns_gap": 16,
         "rows_gap": 36,
         "icons_style": "arrow",
         "icons_shape": "none",
