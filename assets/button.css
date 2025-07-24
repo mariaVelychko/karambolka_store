@@ -27,9 +27,8 @@
     width: 90vw; /* майже повна ширина */
     height: 50px;
     font-size: 14px;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
+    display: block;
+  margin: 0 auto;
   }
 }
 
