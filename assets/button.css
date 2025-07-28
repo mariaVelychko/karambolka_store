@@ -1,4 +1,4 @@
-.button-buy {
+button, .button, .btn {
   width: 18vw;
   height: 9vh;
   background-color: #ad9a87;
@@ -12,27 +12,25 @@
   align-items: center;
 }
 
-.button-buy:hover {
+button:hover, .button:hover, .btn:hover {
   background-color: #3d3939;
   color: #fff;
   cursor: pointer;
-  transform: translateY(-2px); /* Невеликий підйом */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь */
-  transition: background-color 0.3s ease-in-out, transform 0.2s ease-out,
-    box-shadow 0.2s ease-out;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 @media (max-width: 768px) {
-  .button-buy {
-    width: 90vw; /* майже повна ширина */
+  button, .button, .btn {
+    width: 90vw;
     height: 50px;
     font-size: 14px;
-
   }
 }
 
 @media (max-width: 1024px) {
-  .button-buy {
+  button, .button, .btn {
     width: 50vw;
     height: 55px;
     font-size: 15px;
