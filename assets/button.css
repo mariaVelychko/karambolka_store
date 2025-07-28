@@ -1,4 +1,4 @@
-.button-buy {
+.button {
   width: 18vw;
   height: 9vh;
   background-color: #ad9a87;
@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.button-buy:hover {
+.button:hover {
   background-color: #3d3939;
   color: #fff;
   cursor: pointer;
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 768px) {
-  .button-buy {
+  .button {
     width: 90vw; /* майже повна ширина */
     height: 50px;
     font-size: 14px;
@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 1024px) {
-  .button-buy {
+  .button {
     width: 50vw;
     height: 55px;
     font-size: 15px;
