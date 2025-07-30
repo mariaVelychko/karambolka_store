@@ -4405,4 +4405,7 @@ h6 {
   .quantity-selector > input{
     height: 100% !important;
   }
+  .group-block-content > div{
+    display: flex;
+  }
 }
