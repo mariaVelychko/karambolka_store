@@ -4397,6 +4397,7 @@ h6 {
   align-items: center;
   gap: 20px !important;
   height: auto !important;
+  width: 100%;
 }
 .product-form-buttons button {
     display: flex;
