@@ -4398,11 +4398,6 @@ h6 {
   height: auto !important;
   width: 100%  !important;
 }
-#ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span
-  {
-    display: inline-block;
-       width: 90% !important;
-  }
 .product-form-buttons button {
     display: flex;
     flex-direction: column;
