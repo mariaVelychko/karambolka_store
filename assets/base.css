@@ -4405,4 +4405,7 @@ h6 {
   .quantity-selector > input{
     height: 100% !important;
   }
+  #BuyButtons-ProductForm-AZWRqQVNmZmVQeDBIM__buy_buttons_eYQEYi > div > div > div > shopify-accelerated-checkout > shopify-buy-it-now-button > button{
+    margin-bottom: 20px;
+  }
 }
