@@ -4398,15 +4398,11 @@ h6 {
   gap: 20px !important;
   height: auto !important;
 }
-  /*
-  #ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span,
-  #ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span > product-form-component,
-  #BuyButtons-ProductForm-AZWRqQVNmZmVQeDBIM__buy_buttons_eYQEYi,
-  .quantity-selector, .add-to-cart-button,
+#ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span
   {
+    display: inline-block;
        width: 90% !important;
   }
-  */
 .product-form-buttons button {
     display: flex;
     flex-direction: column;
