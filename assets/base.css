@@ -4387,3 +4387,8 @@ h6 {
     flex-direction: column;
 }
 }
+@media screen and (max-width: 749px) {
+.quantity-selector, .add-to-cart-button {
+    height: auto !important;
+}
+}
