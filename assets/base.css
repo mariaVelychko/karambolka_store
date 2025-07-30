@@ -4384,7 +4384,8 @@ h6 {
 @media screen and (max-width: 749px) {
 .product-form-buttons{
     flex-direction: column;
-  gap: 50px
+  gap: 50px;
+  width: 90% !important;
 }
   .add-to-cart-text--added{
     display: none !important;
