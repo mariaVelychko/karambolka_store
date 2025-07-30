@@ -4392,6 +4392,9 @@ h6 {
   }
 }
 @media screen and (max-width: 749px) {
+  #BuyButtons-ProductForm-AZWRqQVNmZmVQeDBIM__buy_buttons_eYQEYi{
+    width: 90%;
+  }
 .quantity-selector, .add-to-cart-button {
   display: flex;
   align-items: center;
