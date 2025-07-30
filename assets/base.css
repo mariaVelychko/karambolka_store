@@ -4382,3 +4382,6 @@ h5,
 h6 {
   color: blue !important;
 }
+.product-form-buttons{
+    flex-direction: column;
+}
