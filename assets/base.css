@@ -4391,7 +4391,7 @@ h6 {
 @media screen and (max-width: 749px) {
 .quantity-selector, .add-to-cart-button {
   display: flex;
-  gap: 20px;
+  gap: 20px !important;
   height: auto !important;
 }
 }
