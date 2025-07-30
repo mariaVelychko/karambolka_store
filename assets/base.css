@@ -4398,6 +4398,9 @@ h6 {
   gap: 20px !important;
   height: auto !important;
 }
+  .button add-to-cart-button button{
+    text-align: center;
+  }
   .quantity-selector > input{
     height: 100% !important;
   }
