@@ -4393,14 +4393,14 @@ h6 {
 }
 @media screen and (max-width: 749px) {
   #BuyButtons-ProductForm-AZWRqQVNmZmVQeDBIM__buy_buttons_eYQEYi{
-    width: 100% !important;
+    width: 90% !important;
   }
 .quantity-selector, .add-to-cart-button {
   display: flex;
   align-items: center;
   gap: 20px !important;
   height: auto !important;
-  width: 100% !important;
+  width: 90% !important;
 }
   #ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span{
        width: 90%;
