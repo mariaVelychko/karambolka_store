@@ -4396,7 +4396,8 @@ h6 {
   display: flex;
   align-items: center;
   gap: 20px !important;
-  height: auto !important;
+  height: auto !important ;
+  width: 100%  !important;
 }
 #ProductInformation-template--19204549214339__main > div > div.group-block-content.layout-panel-flex.layout-panel-flex--column > span
   {
