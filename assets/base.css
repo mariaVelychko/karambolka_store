@@ -4387,6 +4387,9 @@ h6 {
     flex-direction: column;
   gap: 50px
 }
+  .add-to-cart-text--added{
+    display: none;
+  }
 }
 @media screen and (max-width: 749px) {
 .quantity-selector, .add-to-cart-button {
