@@ -4399,7 +4399,8 @@ h6 {
   height: auto !important;
 }
   .button add-to-cart-button button{
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .quantity-selector > input{
     height: 100% !important;
