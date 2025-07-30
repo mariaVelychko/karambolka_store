@@ -4398,10 +4398,11 @@ h6 {
   gap: 20px !important;
   height: auto !important;
 }
-  .button add-to-cart-button button{
+.product-form-buttons button {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-  }
+}
   .quantity-selector > input{
     height: 100% !important;
   }
