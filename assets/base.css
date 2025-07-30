@@ -4407,5 +4407,8 @@ h6 {
   }
   .group-block-content > div div{
     display: flex;
+    gap:20px;
+    align-content: center;
+    justify-content: center;
   }
 }
