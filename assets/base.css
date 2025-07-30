@@ -4389,6 +4389,8 @@ h6 {
 }
 @media screen and (max-width: 749px) {
 .quantity-selector, .add-to-cart-button {
-    height: auto !important;
+  display: flex;
+  gap: 20px;
+  height: auto !important;
 }
 }
